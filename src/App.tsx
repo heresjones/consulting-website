@@ -1,24 +1,42 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
+import MainHeader from "./components/mainHeader";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Services from "./pages/services";
+import { defaultBanner, defaultOfferings } from "./strings";
+import StickyFooter from "./components/mainFooter";
+import { Container } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <MainHeader></MainHeader>
+        <Container maxWidth="lg">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Home banner={defaultBanner} offerings={defaultOfferings} />
+              }
+            />
+            <Route
+              path="/home"
+              element={
+                <Home banner={defaultBanner} offerings={defaultOfferings} />
+              }
+            />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Container>
+        <StickyFooter></StickyFooter>
+      </Router>
     </div>
   );
 }
