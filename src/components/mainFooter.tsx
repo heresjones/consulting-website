@@ -12,7 +12,8 @@ function Copyright() {
       {"Copyright © "}
       {/* <Link color="inherit" href="https://mui.com/"> */}
       Four Mile River Technologies
-      {/* </Link>{" "} */}s{new Date().getFullYear()}
+      {/* </Link>{" "} */}
+      {new Date().getFullYear()}
       {"."}
     </Typography>
   );

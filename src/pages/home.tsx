@@ -5,6 +5,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import mainBanner from "../img/banner12.png";
 import { FaFlagUsa } from "react-icons/fa"; // Import the icon
+import IconRow from "../components/companyicons";
 
 interface OfferingProps {
   offering: {
@@ -84,28 +85,19 @@ const Home = (props: HomeProps) => {
           justifyContent: "flex-start", // Align items at the start of the container's cross axis
           pt: 8, // Add some top padding
         }}
+      ></Paper>
+      <Typography variant="h3">{banner.title}</Typography>
+      <Typography
+        variant="h5"
+        sx={{ fontStyle: "italic", textAlign: "center", my: 2 }}
       >
-        <Typography
-          variant="h2"
-          component="h1"
-          align="center"
-          gutterBottom
-          sx={{ fontSize: "2.5rem", color: "black" }}
-        >
-          {banner.title}
-        </Typography>
-        {/* <Typography variant="h6" align="center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </Typography> */}
-        <div style={{ height: "50px" }}></div>
-        <Box sx={{ display: "flex", alignItems: "center", mt: 2 }}>
-          <FaFlagUsa size={24} />
-          <Typography variant="body1" sx={{ ml: 1 }}>
-            Made in USA
-          </Typography>
-        </Box>
-      </Paper>
+        "Driving the future of cloud innovation, we harness the power of the
+        cloud to transform your pioneering ideas into scalable, leading-edge
+        solutions."
+        <br />
+        -Anynymous
+      </Typography>
+      <IconRow />
       <Grid
         container
         spacing={2}

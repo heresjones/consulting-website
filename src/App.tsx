@@ -10,13 +10,14 @@ import Services from "./pages/services";
 import { defaultBanner, defaultOfferings } from "./strings";
 import StickyFooter from "./components/mainFooter";
 import { Container } from "@mui/material";
+import Startups from "./pages/startups";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <MainHeader></MainHeader>
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" disableGutters={true}>
           <Routes>
             <Route
               path="/"
@@ -33,6 +34,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/startups" element={<Startups />} />
           </Routes>
         </Container>
         <StickyFooter></StickyFooter>

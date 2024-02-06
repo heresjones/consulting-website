@@ -2,29 +2,102 @@ export const defaultBanner = {
   image: "path/to/default-banner-image.jpg",
   title: "Transforming Ideas into Cloud-Driven Realities",
 };
-
 export const defaultOfferings = [
   {
-    title: "Cloud Services",
+    title: "Cloud",
     description:
-      "Elevate your business with scalable, secure, and innovative cloud services.",
+      "Scale and innovate with our cloud solutions tailored to your business needs.",
     services: [
-      "Transform your business with our comprehensive cloud services, offering everything from IaaS and PaaS through AWS, Azure, and Google Cloud, to custom SaaS development for CRM and ERP systems. We specialize in cloud migration and management, ensuring a seamless transition with zero downtime, backed by robust cloud security and disaster recovery solutions for business continuity.",
+      "Explore the full spectrum of cloud services: IaaS, PaaS, SaaS Development, migration, management, security, and disaster recovery. Elevate your infrastructure with custom solutions designed for efficiency and resilience.",
     ],
   },
   {
-    title: "Web Services",
-    description: "Creating impactful web experiences that drive growth.",
+    title: "AI & ML",
+    description:
+      "Leverage the power of AI and machine learning in the cloud to drive innovation and efficiency.",
     services: [
-      "Our web development services are designed to create impactful and growth-driven web experiences, featuring front-end development with React, Angular, Vue.js, and back-end solutions using Node.js, Django, and Ruby on Rails. We offer scalable e-commerce solutions, versatile CMS, API development, and web performance optimization to enhance user engagement and SEO.",
+      "Harness AI and machine learning to gain valuable insights, automate processes, and enhance user experiences. Let's build an AI and ML solution designed to transform your business operations.",
+      "Technologies we love: TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV, NLTK, GPT-3, BERT, and more.",
     ],
   },
   {
-    title: "Mobile Apps",
+    title: "Web",
     description:
-      "Innovative mobile solutions to connect with your audience on the go.",
+      "Forge compelling web experiences that captivate and convert your target audience.",
     services: [
-      "Deliver innovative mobile experiences with our app development services, including native app development for iOS and Android, cross-platform solutions with Flutter and React Native, and mobile UI/UX design. We provide strategic mobile app planning, ongoing maintenance, support, and enterprise mobility solutions to connect with your audience effectively on the go.",
+      "Craft unique web solutions: Frontend and Backend Development, E-Commerce Platforms, CMS, API Development, and Performance Optimization. We prioritize user engagement and streamlined operations.",
+      "Technologies we love: React, Flutter, Wordpress",
+    ],
+  },
+  {
+    title: "Mobile",
+    description:
+      "Engage your audience anywhere with our cutting-edge mobile app solutions.",
+    services: [
+      "Build standout mobile apps with iOS and Android development, cross-platform capabilities using Flutter and React Native, and intuitive mobile UI/UX design. From strategy to maintenance, we ensure your mobile presence is powerful and pervasive.",
+    ],
+  },
+  {
+    title: "Desktop",
+    description:
+      "Harness powerful desktop applications designed to deliver superior user experiences.",
+    services: [
+      "Develop exceptional desktop apps for Windows and MacOS, leveraging native .Net, Flutter, and Electron for cross-platform solutions. Our focus on desktop UI/UX design ensures a seamless and engaging user interface.",
+    ],
+  },
+  {
+    title: "UI/UX",
+    description:
+      "Crafting user-centered design strategies that drive engagement and satisfaction.",
+    services: [
+      "Elevate your digital presence with our UI/UX design services, encompassing user research, wireframing, prototyping, and user testing. We're dedicated to creating intuitive and impactful user experiences.",
+    ],
+  },
+  {
+    title: "QA & Testing",
+    description:
+      "Ensuring your software solutions are robust, reliable, and secure.",
+    services: [
+      "Comprehensive quality assurance and testing services, including functional, performance, security, and compatibility testing. We guarantee your software is fully optimized and ready for deployment.",
+    ],
+  },
+  {
+    title: "DevOps",
+    description:
+      "Empower your development and operations teams to achieve peak efficiency.",
+    services: [
+      "Implement DevOps best practices, including continuous integration, continuous delivery, and infrastructure as code. Our DevOps solutions ensure seamless collaboration and rapid delivery.",
+    ],
+  },
+  {
+    title: "Monitoring",
+    description: "Ensuring Peak Performance and Reliability in the Cloud.",
+    services: [
+      "Elevate your AWS infrastructure with our custom monitoring tool, providing real-time insights and proactive anomaly detection. Ensure seamless operations and peak performance with our targeted, efficient monitoring services.",
+    ],
+  },
+  {
+    title: "Blockchain",
+    description:
+      "Secure your digital transactions and data with industry leading blockchain solutions.",
+    services: [
+      "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
+    ],
+  },
+  {
+    title: "Cybersecurity",
+    description:
+      "Protect your digital assets and operations with cloud cybersecurity services.",
+    services: [
+      "Comprehensive cybersecurity services, including risk assessments, threat detection, incident response, and compliance. We're dedicated to safeguarding your digital infrastructure.",
+    ],
+  },
+  {
+    title: "Operations",
+    description:
+      "Optimizing Your Organization's Path to Innovation and Efficiency.",
+    services: [
+      "Maximize your team's efficiency and innovation with our consulting services.  We focus on optimizing people management, agile processes, and tool selection to boost productivity and scalability in the tech landscape.",
     ],
   },
 ];
