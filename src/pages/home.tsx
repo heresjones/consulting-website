@@ -7,64 +7,64 @@ import mainBanner from "../img/banner12.png";
 import { FaFlagUsa } from "react-icons/fa"; // Import the icon
 import IconRow from "../components/companyicons";
 
-interface OfferingProps {
-  offering: {
-    description: string;
-    title: string;
-    services: Array<string>;
-  };
-}
+// interface OfferingProps {
+//   offering: {
+//     description: string;
+//     title: string;
+//     services: Array<string>;
+//   };
+// }
 
-const Offering = (props: OfferingProps) => {
-  const { offering } = props;
+// const Offering = (props: OfferingProps) => {
+//   const { offering } = props;
 
-  return (
-    <Paper
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        p: 2,
-        border: "1px solid grey.300",
-        borderRadius: "borderRadius",
-        mb: 2,
-        height: "100%",
-      }}
-    >
-      <Typography variant="h3" component="h3" align="center" gutterBottom>
-        {offering.title}
-      </Typography>
-      <Typography variant="body2" align="center" gutterBottom>
-        {offering.description}
-      </Typography>
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        {offering.services.map((service, index) => (
-          <li key={index} style={{ fontSize: "18px" }}>
-            <Typography variant="body2" align="center">
-              {service}
-            </Typography>
-            <br />
-          </li>
-        ))}
-      </ul>
-    </Paper>
-  );
-};
+//   return (
+//     <Paper
+//       sx={{
+//         display: "flex",
+//         flexDirection: "column",
+//         alignItems: "center",
+//         p: 2,
+//         border: "1px solid grey.300",
+//         borderRadius: "borderRadius",
+//         mb: 2,
+//         height: "100%",
+//       }}
+//     >
+//       <Typography variant="h3" component="h3" align="center" gutterBottom>
+//         {offering.title}
+//       </Typography>
+//       <Typography variant="body2" align="center" gutterBottom>
+//         {offering.description}
+//       </Typography>
+//       <ul style={{ listStyleType: "none", padding: 0 }}>
+//         {offering.services.map((service, index) => (
+//           <li key={index} style={{ fontSize: "18px" }}>
+//             <Typography variant="body2" align="center">
+//               {service}
+//             </Typography>
+//             <br />
+//           </li>
+//         ))}
+//       </ul>
+//     </Paper>
+//   );
+// };
 
 interface HomeProps {
   banner: {
     image: string;
     title: string;
   };
-  offerings: Array<{
-    description: string;
-    title: string;
-    services: Array<string>;
-  }>;
+  // offerings: Array<{
+  //   description: string;
+  //   title: string;
+  //   services: Array<string>;
+  // }>;
 }
 
 const Home = (props: HomeProps) => {
-  const { banner, offerings } = props;
+  const { banner } = props;
 
   return (
     <Box>
@@ -91,11 +91,9 @@ const Home = (props: HomeProps) => {
         variant="h5"
         sx={{ fontStyle: "italic", textAlign: "center", my: 2 }}
       >
-        "Driving the future of cloud innovation, we harness the power of the
-        cloud to transform your pioneering ideas into scalable, leading-edge
-        solutions."
+        "Those who can imagine anything, can create the impossible."
         <br />
-        -Anynymous
+        -Alan Turing
       </Typography>
       <IconRow />
       <Grid
@@ -104,11 +102,11 @@ const Home = (props: HomeProps) => {
         sx={{ px: { xs: 0, sm: 2 } }}
         style={{ display: "flex" }}
       >
-        {offerings.map((offering, index) => (
+        {/* {offerings.map((offering, index) => (
           <Grid item xs={12} sm={4} key={index}>
             <Offering offering={offering} />
-          </Grid>
-        ))}
+          </Grid> */}
+        {/* ))} */}
       </Grid>
     </Box>
   );

@@ -53,22 +53,22 @@ export const defaultOfferings = [
       "Elevate your digital presence with our UI/UX design services, encompassing user research, wireframing, prototyping, and user testing. We're dedicated to creating intuitive and impactful user experiences.",
     ],
   },
-  {
-    title: "QA & Testing",
-    description:
-      "Ensuring your software solutions are robust, reliable, and secure.",
-    services: [
-      "Comprehensive quality assurance and testing services, including functional, performance, security, and compatibility testing. We guarantee your software is fully optimized and ready for deployment.",
-    ],
-  },
-  {
-    title: "DevOps",
-    description:
-      "Empower your development and operations teams to achieve peak efficiency.",
-    services: [
-      "Implement DevOps best practices, including continuous integration, continuous delivery, and infrastructure as code. Our DevOps solutions ensure seamless collaboration and rapid delivery.",
-    ],
-  },
+  //   {
+  //     title: "QA & Testing",
+  //     description:
+  //       "Ensuring your software solutions are robust, reliable, and secure.",
+  //     services: [
+  //       "Comprehensive quality assurance and testing services, including functional, performance, security, and compatibility testing. We guarantee your software is fully optimized and ready for deployment.",
+  //     ],
+  //   },
+  //   {
+  //     title: "DevOps",
+  //     description:
+  //       "Empower your development and operations teams to achieve peak efficiency.",
+  //     services: [
+  //       "Implement DevOps best practices, including continuous integration, continuous delivery, and infrastructure as code. Our DevOps solutions ensure seamless collaboration and rapid delivery.",
+  //     ],
+  //   },
   {
     title: "Monitoring",
     description: "Ensuring Peak Performance and Reliability in the Cloud.",
@@ -76,14 +76,14 @@ export const defaultOfferings = [
       "Elevate your AWS infrastructure with our custom monitoring tool, providing real-time insights and proactive anomaly detection. Ensure seamless operations and peak performance with our targeted, efficient monitoring services.",
     ],
   },
-  {
-    title: "Blockchain",
-    description:
-      "Secure your digital transactions and data with industry leading blockchain solutions.",
-    services: [
-      "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
-    ],
-  },
+  //   {
+  //     title: "Blockchain",
+  //     description:
+  //       "Secure your digital transactions and data with industry leading blockchain solutions.",
+  //     services: [
+  //       "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
+  //     ],
+  //   },
   {
     title: "Cybersecurity",
     description:

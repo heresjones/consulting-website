@@ -19,19 +19,14 @@ function App() {
         <MainHeader></MainHeader>
         <Container maxWidth="lg" disableGutters={true}>
           <Routes>
+            <Route path="/" element={<Home banner={defaultBanner} />} />
+            <Route path="/home" element={<Home banner={defaultBanner} />} />
             <Route
-              path="/"
+              path="/services"
               element={
-                <Home banner={defaultBanner} offerings={defaultOfferings} />
+                <Services banner={defaultBanner} offerings={defaultOfferings} />
               }
             />
-            <Route
-              path="/home"
-              element={
-                <Home banner={defaultBanner} offerings={defaultOfferings} />
-              }
-            />
-            <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/startups" element={<Startups />} />
