@@ -17,7 +17,6 @@ export const defaultOfferings = [
       "Leverage the power of AI and machine learning in the cloud to drive innovation and efficiency.",
     services: [
       "Harness AI and machine learning to gain valuable insights, automate processes, and enhance user experiences. Let's build an AI and ML solution designed to transform your business operations.",
-      "Technologies we love: TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV, NLTK, GPT-3, BERT, and more.",
     ],
   },
   {
@@ -26,7 +25,6 @@ export const defaultOfferings = [
       "Forge compelling web experiences that captivate and convert your target audience.",
     services: [
       "Craft unique web solutions: Frontend and Backend Development, E-Commerce Platforms, CMS, API Development, and Performance Optimization. We prioritize user engagement and streamlined operations.",
-      "Technologies we love: React, Flutter, Wordpress",
     ],
   },
   {
@@ -42,7 +40,7 @@ export const defaultOfferings = [
     description:
       "Harness powerful desktop applications designed to deliver superior user experiences.",
     services: [
-      "Develop exceptional desktop apps for Windows and MacOS, leveraging native .Net, Flutter, and Electron for cross-platform solutions. Our focus on desktop UI/UX design ensures a seamless and engaging user interface.",
+      "Develop custom desktop apps for Windows and MacOS, leveraging native .Net, Flutter, and Electron for cross-platform solutions. Our focus on desktop UI/UX design ensures a seamless and engaging user interface.",
     ],
   },
   {
@@ -70,7 +68,7 @@ export const defaultOfferings = [
   //     ],
   //   },
   {
-    title: "Monitoring",
+    title: "Cloud Monitoring",
     description: "Ensuring Peak Performance and Reliability in the Cloud.",
     services: [
       "Elevate your AWS infrastructure with our custom monitoring tool, providing real-time insights and proactive anomaly detection. Ensure seamless operations and peak performance with our targeted, efficient monitoring services.",
@@ -84,22 +82,22 @@ export const defaultOfferings = [
   //       "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
   //     ],
   //   },
-  {
-    title: "Cybersecurity",
-    description:
-      "Protect your digital assets and operations with cloud cybersecurity services.",
-    services: [
-      "Comprehensive cybersecurity services, including risk assessments, threat detection, incident response, and compliance. We're dedicated to safeguarding your digital infrastructure.",
-    ],
-  },
-  {
-    title: "Operations",
-    description:
-      "Optimizing Your Organization's Path to Innovation and Efficiency.",
-    services: [
-      "Maximize your team's efficiency and innovation with our consulting services.  We focus on optimizing people management, agile processes, and tool selection to boost productivity and scalability in the tech landscape.",
-    ],
-  },
+  //   {
+  //     title: "Cybersecurity",
+  //     description:
+  //       "Protect your digital assets and operations with cloud cybersecurity services.",
+  //     services: [
+  //       "Comprehensive cybersecurity services, including risk assessments, threat detection, incident response, and compliance. We're dedicated to safeguarding your digital infrastructure.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Operations",
+  //     description:
+  //       "Optimizing Your Organization's Path to Innovation and Efficiency.",
+  //     services: [
+  //       "Maximize your team's efficiency and innovation with our consulting services.  We focus on optimizing people management, agile processes, and tool selection to boost productivity and scalability in the tech landscape.",
+  //     ],
+  //   },
 ];
 
 export const defaultOfferings2 = [

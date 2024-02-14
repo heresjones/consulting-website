@@ -88,9 +88,9 @@ function StartupAccordion() {
             take the first step towards building something extraordinary
             together.
           </Typography>
-          <Button variant="contained" color="primary">
+          {/* <Button variant="contained" color="primary">
             Start Your Journey
-          </Button>
+          </Button> */}
         </AccordionDetails>
         {/* <AccordionActions>
           <Button>Cancel</Button>

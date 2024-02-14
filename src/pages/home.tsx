@@ -7,60 +7,11 @@ import mainBanner from "../img/banner12.png";
 import { FaFlagUsa } from "react-icons/fa"; // Import the icon
 import IconRow from "../components/companyicons";
 
-// interface OfferingProps {
-//   offering: {
-//     description: string;
-//     title: string;
-//     services: Array<string>;
-//   };
-// }
-
-// const Offering = (props: OfferingProps) => {
-//   const { offering } = props;
-
-//   return (
-//     <Paper
-//       sx={{
-//         display: "flex",
-//         flexDirection: "column",
-//         alignItems: "center",
-//         p: 2,
-//         border: "1px solid grey.300",
-//         borderRadius: "borderRadius",
-//         mb: 2,
-//         height: "100%",
-//       }}
-//     >
-//       <Typography variant="h3" component="h3" align="center" gutterBottom>
-//         {offering.title}
-//       </Typography>
-//       <Typography variant="body2" align="center" gutterBottom>
-//         {offering.description}
-//       </Typography>
-//       <ul style={{ listStyleType: "none", padding: 0 }}>
-//         {offering.services.map((service, index) => (
-//           <li key={index} style={{ fontSize: "18px" }}>
-//             <Typography variant="body2" align="center">
-//               {service}
-//             </Typography>
-//             <br />
-//           </li>
-//         ))}
-//       </ul>
-//     </Paper>
-//   );
-// };
-
 interface HomeProps {
   banner: {
     image: string;
     title: string;
   };
-  // offerings: Array<{
-  //   description: string;
-  //   title: string;
-  //   services: Array<string>;
-  // }>;
 }
 
 const Home = (props: HomeProps) => {
