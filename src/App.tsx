@@ -2,7 +2,12 @@
 import "./App.css";
 import React from "react";
 import MainHeader from "./components/mainHeader";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
@@ -19,7 +24,7 @@ function App() {
         <MainHeader></MainHeader>
         <Container maxWidth="lg" disableGutters={true}>
           <Routes>
-            <Route path="/" element={<Home banner={defaultBanner} />} />
+            <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/home" element={<Home banner={defaultBanner} />} />
             <Route
               path="/services"
