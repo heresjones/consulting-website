@@ -27,7 +27,12 @@ const Startups = () => {
         }}
       ></Paper>
       {/* Header 1 */}
-      <Typography variant="h1">Empowering Startups</Typography>
+      <Typography
+        variant="h1"
+        sx={{ fontSize: { xs: "2rem", sm: "3rem", md: "4rem" } }}
+      >
+        Empowering Startups
+      </Typography>
       <Box sx={{ p: 2 }}>
         {/* Quote */}
         <Typography

@@ -26,10 +26,16 @@ const ServiceOffering = (props: ServiceOfferingProps) => {
         border: "1px solid grey.300",
         borderRadius: "borderRadius",
         mb: 2,
-        height: "100%",
+        height: { xs: "auto", sm: "100%" }, // Make the height responsive
       }}
     >
-      <Typography variant="h3" component="h3" align="center" gutterBottom>
+      <Typography
+        variant="h3"
+        component="h3"
+        align="center"
+        gutterBottom
+        sx={{ fontSize: { xs: "1.5rem", sm: "2.125rem" } }} // Make the font size responsive
+      >
         {offering.title}
       </Typography>
       <Typography variant="body2" align="center" gutterBottom>

@@ -51,22 +51,22 @@ export const defaultOfferings = [
       "Elevate your digital presence with our UI/UX design services, encompassing user research, wireframing, prototyping, and user testing. We're dedicated to creating intuitive and impactful user experiences.",
     ],
   },
-  //   {
-  //     title: "QA & Testing",
-  //     description:
-  //       "Ensuring your software solutions are robust, reliable, and secure.",
-  //     services: [
-  //       "Comprehensive quality assurance and testing services, including functional, performance, security, and compatibility testing. We guarantee your software is fully optimized and ready for deployment.",
-  //     ],
-  //   },
-  //   {
-  //     title: "DevOps",
-  //     description:
-  //       "Empower your development and operations teams to achieve peak efficiency.",
-  //     services: [
-  //       "Implement DevOps best practices, including continuous integration, continuous delivery, and infrastructure as code. Our DevOps solutions ensure seamless collaboration and rapid delivery.",
-  //     ],
-  //   },
+  {
+    title: "QA & Testing",
+    description:
+      "Ensuring your software solutions are robust, reliable, and secure.",
+    services: [
+      "Comprehensive quality assurance and testing services, including functional, performance, security, and compatibility testing. We guarantee your software is fully optimized and ready for deployment.",
+    ],
+  },
+  {
+    title: "DevOps",
+    description:
+      "Empower your development and operations teams to achieve peak efficiency.",
+    services: [
+      "Implement DevOps best practices, including continuous integration, continuous delivery, and infrastructure as code. Our DevOps solutions ensure seamless collaboration and rapid delivery.",
+    ],
+  },
   {
     title: "Cloud Monitoring",
     description: "Ensuring Peak Performance and Reliability in the Cloud.",
@@ -74,30 +74,30 @@ export const defaultOfferings = [
       "Elevate your AWS infrastructure with our custom monitoring tool, providing real-time insights and proactive anomaly detection. Ensure seamless operations and peak performance with our targeted, efficient monitoring services.",
     ],
   },
-  //   {
-  //     title: "Blockchain",
-  //     description:
-  //       "Secure your digital transactions and data with industry leading blockchain solutions.",
-  //     services: [
-  //       "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Cybersecurity",
-  //     description:
-  //       "Protect your digital assets and operations with cloud cybersecurity services.",
-  //     services: [
-  //       "Comprehensive cybersecurity services, including risk assessments, threat detection, incident response, and compliance. We're dedicated to safeguarding your digital infrastructure.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Operations",
-  //     description:
-  //       "Optimizing Your Organization's Path to Innovation and Efficiency.",
-  //     services: [
-  //       "Maximize your team's efficiency and innovation with our consulting services.  We focus on optimizing people management, agile processes, and tool selection to boost productivity and scalability in the tech landscape.",
-  //     ],
-  //   },
+  {
+    title: "Blockchain",
+    description:
+      "Secure your digital transactions and data with industry leading blockchain solutions.",
+    services: [
+      "Implement blockchain technology to secure your digital assets, streamline transactions, and ensure data integrity. Our blockchain solutions are designed to revolutionize your digital operations.",
+    ],
+  },
+  {
+    title: "Cybersecurity",
+    description:
+      "Protect your digital assets and operations with cloud cybersecurity services.",
+    services: [
+      "Comprehensive cybersecurity services, including risk assessments, threat detection, incident response, and compliance. We're dedicated to safeguarding your digital infrastructure.",
+    ],
+  },
+  {
+    title: "Operations",
+    description:
+      "Optimizing Your Organization's Path to Innovation and Efficiency.",
+    services: [
+      "Maximize your team's efficiency and innovation with our consulting services.  We focus on optimizing people management, agile processes, and tool selection to boost productivity and scalability in the tech landscape.",
+    ],
+  },
 ];
 
 export const defaultOfferings2 = [
