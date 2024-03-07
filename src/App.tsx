@@ -16,10 +16,21 @@ import { defaultBanner, defaultOfferings } from "./strings";
 import StickyFooter from "./components/mainFooter";
 import { Container } from "@mui/material";
 import Startups from "./pages/startups";
+import GameOfThronesQuiz from "./quizzes/gameOfThrones";
+import AdSense from "./components/adsense";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4326616525418199"
+          crossOrigin="anonymous"
+        ></script>
+      </Helmet>
+      <AdSense client="ca-pub-4326616525418199" />
       <Router>
         <MainHeader></MainHeader>
         <Container maxWidth="lg" disableGutters={true}>
@@ -35,6 +46,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/startups" element={<Startups />} />
+            <Route path="/gotquiz" element={<GameOfThronesQuiz />} />
           </Routes>
         </Container>
         <StickyFooter></StickyFooter>

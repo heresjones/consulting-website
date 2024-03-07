@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import mainBanner from "../img/banner12.png";
 import { FaFlagUsa } from "react-icons/fa"; // Import the icon
 import IconRow from "../components/companyicons";
+import { Helmet } from "react-helmet";
 
 interface HomeProps {
   banner: {
@@ -19,6 +20,15 @@ const Home = (props: HomeProps) => {
 
   return (
     <Box>
+      <Helmet>
+        <meta name="google-adsense-account" content="ca-pub-4326616525418199" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4326616525418199"
+          crossOrigin="anonymous"
+        ></script>
+      </Helmet>
+
       <Paper
         sx={{
           position: "relative",
